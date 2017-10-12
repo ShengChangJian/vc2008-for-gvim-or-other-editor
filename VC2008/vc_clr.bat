@@ -1,0 +1,1 @@
+%VC2008_DIR%\bin\cl.exe /clr %1
