@@ -1,8 +1,9 @@
 # vc2008-for-gvim-or-other-editor
 
 由于可能涉及到侵权，所以没有给出具体的 VC2008 的编译其，实际上你可以通过微软的官网安装编译器和构建工具，
-具体参见微软官网的“Visual C++ 2017 Build Tools ”，然后根据其中的指南安装 windows SDK、Visual C++ tools and..
- 、Visual C++ tools for CMake等组件，然后根据本项目的指南进行操作。
+具体参见微软官网的“Visual C++ 2015 Build Tools ”，然后根据其中的指南安装 windows SDK、Visual C++ tools and..
+ 、Visual C++ tools for CMake等组件(可能需要安排重新一下目录结构或者修改本项目中提到的路径信息)，
+然后根据本项目的指南进行操作。
 
 这是从vs 2008 中提取出来的 VC 和VC++ 编译器，主要是给不想安装庞大的 VS 并且
 喜欢用 bscmake，make，cmake 等构建工具构建或编译项目的伙伴提供一个编译构建
